@@ -25,5 +25,5 @@ func ParseLr(input, leftDelimiter, rightDelimiter string) (string, error) {
 		return "", parseError
 	}
 
-	return input[startIndex : startIndex + endIndex], nil
+	return input[startIndex : startIndex+endIndex], nil
 }
