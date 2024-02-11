@@ -12,6 +12,8 @@ Parse values easily using LR (left-right delimiter) with LRParser.
 ## Usage
 
 ```go
+package main
+
 import (
     "fmt"
     "github.com/infectrs/lrparser"
